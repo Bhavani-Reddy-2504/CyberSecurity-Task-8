@@ -1,0 +1,21 @@
+
+Task 8 – SQL Injection Analysis
+
+The OWASP Juice Shop application was tested for SQL Injection vulnerabilities
+using the SQLMap tool.
+
+The search parameter "q" was identified from the application URL and selected
+for testing. SQLMap was used to analyze this parameter using automated testing
+methods.
+
+Initial SQL Injection tests were performed successfully, and SQLMap executed
+multiple checks to determine parameter behavior. Database enumeration,
+table listing, and user data extraction were attempted using SQLMap commands.
+
+The application did not allow successful database or table enumeration.
+This behavior indicates the presence of input validation, error handling,
+and defensive mechanisms that limit automated SQL Injection exploitation.
+
+Although data extraction was not successful, the testing process itself was
+completed correctly and provided valuable insight into SQL Injection testing
+and application security defenses.
